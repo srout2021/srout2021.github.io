@@ -1,0 +1,43 @@
+/* Used a CSS selector to apply style to the h1 header element (Part 1) */
+/* Also changed multiple box model properties for this hyperlink element (Part 7) */
+h1{
+	margin:  0;
+	padding: 0;
+	border-style: dotted;
+	border: 10 px;
+	text-align: center;
+	color: darkblue;
+	font-size: 400%;
+}
+h2{
+	text-align: left;
+	color: darkorange;
+	font-size: 20 px;
+}
+body{
+	background: crimson;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.section-1{
+	background: darkseagreen;
+}
+.section-2{
+	background: lightgoldenrodyellow;
+}
+#conclusion{
+	text-align: center;
+	font-size: 30 px;
+	background: limegreen;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+a{
+	color: darkslategray;
+}
+/* Change the color when the cursor hovers over the hyperlink element (Part 6) */
+a:hover{
+	color: mediumaquamarine;
+}
+img{
+	height: 50 px;
+	width: 50 px;
+}
